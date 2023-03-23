@@ -134,6 +134,7 @@ header {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 
 .nav-link:hover,
@@ -171,6 +172,7 @@ header {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -225,6 +227,7 @@ header {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 
 .hero-but:hover,
