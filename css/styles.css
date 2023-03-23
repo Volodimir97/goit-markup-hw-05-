@@ -340,6 +340,7 @@ header {
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 
 .but-item {
@@ -377,7 +378,8 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.services-item-link:hover .overlay {
+.services-item-link:hover .overlay,
+.services-item-link:focus .overlay {
   transform: translateY(0);
 }
 .overlay-text {
@@ -396,6 +398,7 @@ header {
   transition-property: border, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 .services-item-link:hover,
 .services-item-link:focus {
@@ -476,10 +479,11 @@ header {
   height: 40px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  padding-top: 2px;
+
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 .footer-list-container {
   display: flex;
@@ -505,10 +509,10 @@ header {
   height: 40px;
   background-color: var(--accent-color);
   border-radius: 50%;
-  padding-top: 2px;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 
 .socials-item-link:hover,
@@ -537,6 +541,7 @@ header {
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 .clients-link:hover,
 .clients-link:focus {
